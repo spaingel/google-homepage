@@ -1,0 +1,20 @@
+nav {
+    display: block;
+    float: right;
+}
+li {
+    display: inline;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+footer{
+    display: inline;
+}
+
+#navicon1 {
+    width: 24px;
+    height: 24px;
+}
