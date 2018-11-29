@@ -5,39 +5,39 @@
         <link rel="stylesheet" type="text/css" href="style.css">
 	</head>
         <body>
-         <nav>
-                <ul>
-                    <li>Gmail</li>
-                    <li>Imagens</li>
-                    <li><img id="navicon1" src="images/showapps_icon.png" alt="quadrados" /></li>
-                    <li><img src="images/notifications_icon.png" alt="campainha" /></li>
-                    <li><img src="images/photo_icon.png" alt="logo conta google" /></li>
-                </ul> 
-         </nav> 
+            <div id="header">   
+                <nav>
+                    <a href="">Gmail</a>
+                    <a href="">Imagens</a>
+                    <a href=""><img src="images/showapps_icon.png" id="showapps"/></a>
+                    <a href=""><img src="images/notifications_icon.png" id="notif"/></a>
+                    <a href=""><img src="images/photo_icon.png" id="photo"/></a>
+                </nav>
+            </div>
+        <div id="search">
 
-         <div>
-         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="GOOGLE LOGO" />
-         </div> 
-         <form>
-             <input type="text" name="Searchbar">
-             <img src="images/access_icon.png" /><br>
-             <input type="submit" value="Pesquisa Google">
-             <input type="submit" value="Sinto-me com sorte">
-         </form>
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="GOOGLE LOGO" />
 
-         <footer>
-            <div>Portugal</div>
-            <ul>
-                <li>Publicidade</li>
-                <li>Negócios</li>
-                <li>Sobre</li>
-            </ul>
-            <ul>
-                <li>Privacidade</li>
-                <li>Termos</li>
-                <li>Definições</li>
-            </ul>
-         </footer>
+            <form>
+                <input type="text" name="searchbar">
+                <img src="images/access_icon.png" /><br>
+                <input type="submit" value="Pesquisa Google">
+                <input type="submit" value="Sinto-me com sorte">
+            </form>
+        </div>
+        <footer>
+            <nav class="pub">
+                <a href="">Publicidade</a>
+                <a href="">Negócios</a>
+                <a href="">Sobre</a>
+            </nav>
+            <nav class="pri">
+                <a href="">Privacidade</a>
+                <a href="">Termos</a>
+                <a href="">Definições</a>
+            </nav>
+            
+        </footer>
         </body>
     
 </html>
