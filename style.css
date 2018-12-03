@@ -1,33 +1,37 @@
-#header {
-    position: fixed;
-    margin-top: 10px;
-    width: 100%;
-    text-align: right;
+body {
+    margin: 0;
 }
-#showapps {
+
+a {
+    padding-right: 12px;
+}
+
+.header {
+    background: #D1F5A6;
+    text-align: right;
+    line-height: 40px;
+}
+.icon {
     width: 24px;
     height: 24px;
     opacity: 0.75;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    margin-bottom: 5px;
-    display: inline-block;
-    width: 100%;
+#footer {
+    background: #f2f2f2;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    line-height: 40px;
 }
 
-.pub {
+.top {
+    margin-left: 25px;
+}
+
+.left {
+    margin-left: 25px;
     float: left;
 }
-.pri {
+.right {
     float: right;
-}
-
-#search {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
 }
