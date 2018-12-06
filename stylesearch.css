@@ -15,7 +15,7 @@ a:link, a:visited {
 }
 
 a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 /* HEADER SECTION */
@@ -45,6 +45,10 @@ input[type=text] {
     padding-left: 15px;
 }
 
+input[type=text]:hover {
+	box-shadow: 6px 6px 5px #e0dede;
+}
+
 .topnav {
     vertical-align: middle;
     text-align: right;
@@ -55,6 +59,14 @@ input[type=text] {
     width: 24px;
     height: 24px;
     opacity: 0.6;
+}
+
+.icon:hover {
+	opacity: 1;
+}
+
+#photo {
+	border-radius: 50%;
 }
 
 .toplist ul {
@@ -70,12 +82,55 @@ input[type=text] {
     text-align: right;
 }
 
+.toplist li a:hover {
+    color: #303030;
+}
+
 /* MAIN SECTION */
 
 .main {
-    margin-left: 120px;
+    margin-left: 150px;
     width: 800px;
-    background: blue;
+}
+
+.main ul {
+    list-style-type: none;
+    padding-left: 3px;;
+}
+
+.main a, span {
+    color:#006621;
+    font-size: medium;
+}
+
+.main li {
+    margin-bottom: 30px;
+}
+
+.main li p{
+    margin-top: 5px;
+}
+.mainlink a{
+    color: #1a39c5;
+    font-size: large;
+}
+
+.mainlink {
+    margin-bottom: 5px;
+}
+
+#mainbot h3{
+    font-weight: normal;
+    font-size: large;
+    color: #222222;
+}
+
+#mainbot a{
+    color: #1a0dab;
+    font-weight: bold;
+}
+#mainbot li {
+    margin-bottom: 10px;
 }
 
 /* FOOTER SECTION */
@@ -84,7 +139,7 @@ input[type=text] {
     background-color: #f2f2f2;
     border-top: 1px #e4e4e4 solid;
     line-height: 40px;
-	position: fixed;
+	position: relative;
 	width: 100%;
 	bottom: 0;
 }
